@@ -1,0 +1,22 @@
+1. Create a class called Invoice that a Grocery store might use to represent an invoice for an item sold at the store. An Invoice should include four pieces of informationas
+instance variables—a part number (type String), a part description (type String), quantity of the item being purchased (type int) and a price per item (double). Your class 
+should have default constructor, constructor with three arguments and fur arguments . Provide a set and a get method for each instance variable. In addition, provide a method 
+named getInvoiceAmount that calculates the invoice amount (i.e., multiplies the quantity by the price per item), then returns the amount as a double value. The default value of
+the quantity should be set to 0 and the price per item should be set to 0.0. Write a test program named InvoiceTest that demonstrates class Invoice’s capabilities.
+
+2. Define a class called Time that has data fields: seconds, minutes and hour of type integer. Time should have get methods and constructors (default, three arguments),
+toString() that will print the details of Time instance. Provide timeelapsed(int) method that takes the number of seconds of elapsed and the instance invoking method should
+add the seconds to its seconds data field. If the seconds exceed 60, the minute should be incremented and subsequently the hour has to be incremented if exceeds 60 minutes. Write
+a test program to test the functionalities of the Time class.
+
+3. Modify the class Invoice to include static variable discountRate of type double. Provide the following methods:modifyDiscountRate( double), static method that can change 
+the discount value and double calculateDiscount(), static methods that returns the discount applicable for the Invoice amount( multiply the discountRate with InvoiceAmount) and 
+double displayTotal() (instance method) that displays the total bill amount to be paid for the Invoice.
+
+4. Modify the class Time to include the following methods:
+override equals() of class Object to check whether the two instances (class Time) are same, greater or lesser. Time addTime(Time ), this methods adds two Time instances stores 
+it in new Time instance and that instance is returned (temporary instance created inside the function). display(int) that prints the Time instance as 24 hour clockwhen the option
+passed to the function is 1, else if 0, print as 12 hour clock
+
+5. Modify the class Invoice to include data field: dateofInvoice of type class Date (use java.util.Date). Create an array of objects of type Invoice. Modify the displayTotal()
+to calculate total bill amount for the array of Invoices and print the amount along with the dateofInvoice.

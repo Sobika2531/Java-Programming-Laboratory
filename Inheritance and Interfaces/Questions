@@ -1,0 +1,30 @@
+1. Define an Abstract class called Time that has protected data fields: seconds, minutes and hour of type integer. Time should have get methods and constructors (default, 
+three arguments), display() that prints the instance data fields. Derive two classes from class Time : TwentyFrHrClock and TwelveHrClock. Override the display function in the 
+derived classes to print the respective instance as 24-hr clock display and 12-hr clock display.
+Provide the following instance method to class TwentyFrHrClock: timeelapsed(int) method that takes the number of seconds of elapsed and the instance invoking method should add 
+the seconds to its seconds data field. If the seconds exceed 60, the minute should be incremented and subsequently the hour has to be incremented if exceeds 60 minutes.
+Provide the following instance method to class TwelveHrClock: int difference(Time): that returns the number of seconds which is the difference between the two Time instances.
+Write a Test program that demonstrates the functionalities of all the classes.
+
+2. Write an abstract class called Person whose protected data fields are: name(String), age(int), height(double) and weight(double). The methods are: constructor with four 
+arguments, get methods and toString() to display the details of Person.
+Derive class called FootballPlayer and Cricketer. FootballPlayer with data fields: teamname(String), uniformnumber(int) and numberofgoals(int). 
+Provide the following methods : constructor, int getnogoals() that returns the number of goals obtained by the player and override toString() that displays FootballPlayer details.
+Cricketer will have data fields: countryname(String), role(String) which indicates the role played by the person as batsman, bowler, all-rounder, and wicket-keeper, 
+nowickets(int) and noruns(int). The methods are: constructor, get methods and overridden toString() that displays the details of Cricketer. 
+Write a test application to invoke the functionalities of the each class.
+
+3. Implement the following interface for the Invoice class defined in the previous lab session:
+  public interface TaxCalculator{
+    public static final salestaxrate = 0.30;
+    public abstract double calculateTax();
+  }
+
+4. Create an interface for the class Time defined as follows:
+  public interface StopWatch{
+    public static final TimerSeconds = 20;
+    public abstract void StartTimer();
+  }
+
+5. Create an array of Person and store the references of derived classes. Invoke the methods of different classes using Person array variable. Define another 
+arraylist<FootBallPlayer> that stores instances of FootbalPayers in the ascending order of goals.

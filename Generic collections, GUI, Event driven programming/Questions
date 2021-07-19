@@ -1,0 +1,16 @@
+1. Write a simple generic version of method isEqualTo that compares its two arguments with the equals method and returns true if they’re equal and false otherwise. 
+Use this generic method in a program that calls is EqualTo with a variety of built-in types, such as Object or Integer.
+
+2. Write a generic class Pair which has two type parameters- F and S each representing the type of the first and second element of the pair, respectively. 
+Add get and set methods for the first and second elements of the pair. Test the generic class Pair with different types – integer, String, built-in types
+
+3. Your application chooses the number to be guessed by selecting an integer at random in the range 1–1000. The application then displays the following in a label:
+  I have a number between 1 and 1000. Can you guess my number?
+  Please enter your first guess.
+
+    A JTextField should be used to input the guess. As each guess is input, the background color should change to either red or blue. Red indicates that the user is getting 
+“warmer,” and blue, “colder.” A JLabel should display either "Too High" or "Too Low" to help the user zero in. When the user gets the correct answer, "Correct!" should be 
+displayed, and the JTextField used for input should be changed to be uneditable. A JButton should be provided to allow the user to play the game again. When the JButton is 
+clicked, a new random number should be generated and the input JTextField changed to be editable.
+
+4. Create the following GUI (see image4). You do not have to provide any functionality.

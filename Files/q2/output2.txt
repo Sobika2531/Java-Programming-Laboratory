@@ -1,0 +1,21 @@
+cricketer:
+
+name: sonia
+age: 30
+height: 160.0
+weight: 57.0
+country name: india
+role: wicketkeeper
+no of wickets: 34
+no of runs: 7890
+
+
+football player:
+
+name: sobika
+age: 24
+height: 179.0
+weight: 67.0
+team name: abc
+uniform number: 7
+number of goals: 56

@@ -1,5 +1,5 @@
-package tues08two;
-import tues08.*;
+package q2b;
+import q2a.*;
 
 public class TestTwo {
 	public static void getOne()

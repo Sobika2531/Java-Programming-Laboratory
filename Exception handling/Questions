@@ -1,0 +1,17 @@
+1. Define a class called Time that has data fields: seconds, minutes and hour of type integer. Time should have setSecond(), setMinute(), setHr() and constructors (default), 
+toString() that will print the details of Time instance.
+Modify this Time class such that IllegalArgumentException is thrown if the set methods gets arguments less than zero and greater than 59.
+When initialising second, minute, hour using set methods ensure that the argument passed is not less than zero and not greater than 59, throw IllegalArgumentException in the 
+method.
+  Note : IllegalArgumentException is thrown in order to indicate that a method has been passed an illegal or inappropriate argument
+
+2. Create a class called Invoice that a Grocery store might use to represent an invoice for an item sold at the store. An Invoice should include four pieces of information as 
+instance variables—a part number (type integer), a part description (type String), quantity of the item being purchased (type integer) and a price per item (double). Provide 
+methods constructor with four arguments.
+Write a test application to create an instance and validate the input obtained using Scanner object. Ensure that part number is value greater than 0, part description is not 
+null string, quantity of the item and price per item is value greater than 0.
+  Note : The InputMismatchException is thrown when attempting to retrieve a value using the Scanner class that doesn’t match the expected pattern or type.
+  
+3. Create an array of Invoice and throw ArrayIndexOutOfBoundsException when it accesses the array of Invoice to print the details using toString method in Invoice class.
+
+4. Modify the question 2 (Invoice) to throw the custom exception that throws an exception with message “partnumber not found” if the partnumber is null.

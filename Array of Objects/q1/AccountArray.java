@@ -1,4 +1,4 @@
-package 1;
+package q1;
 import java.util.*;
 
 public class AccountArray {

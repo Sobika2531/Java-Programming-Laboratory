@@ -1,4 +1,4 @@
-package 2;
+package q2a;
 
 public class TestOne {
 

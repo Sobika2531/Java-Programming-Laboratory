@@ -1,4 +1,4 @@
-package 1;
+package 2;
 
 public class One {
 	public int x=30;

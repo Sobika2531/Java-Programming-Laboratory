@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Feedback Form</title>
+
+<body>
+	<a href="home" >Home</a>
+	
+	<br/><br/>
+	<form method="post" action="display">
+		<label>Enter Register Number: </label> <input required name="reg" type="text" /><br/>
+		<label>Enter Student name : </label> <input required name="name" type="text" /><br/>
+		<label>Enter Course name : </label> <input required name="cname" type="text" /><br/>
+		<label>Enter Branch name : </label> <input required name="bname" type="text" /><br/>
+		<label>Enter Course code:</label> <input required name="ccode" type="text" /><br/>
+		<label>Enter Batch name:</label>
+		<input name="batch" value="N" required  type="radio" /> <label>N</label>
+		<input name="batch" value="P" required  type="radio" /> <label>P</label>
+		<input name="batch" value="Q" required type="radio" /> <label>Q</label>
+		<br/>
+		<label>Useful to gain knowledge:</label>
+		<input name="review" required value="Low" type="radio" /> <label>Low</label>
+		<input name="review" required  value="Medium" type="radio" /> <label>Medium</label>
+		<input name="review" required  value="High" type="radio" /> <label>High</label>
+		<br/>
+		<label>Four hours sufficient:</label>
+		<input name="suff" required value="Low" type="radio" /> <label>Low</label>
+		<input name="suff" required  value="Medium" type="radio" /> <label>Medium</label>
+		<input name="suff" required value="High" type="radio" /> <label>High</label>
+		<br/>
+		<label>Core Course :</label>
+		<input name="core" required  value="Yes" type="radio" /> <label>No</label>
+		<input name="core" required  value="No" type="radio" /> <label>Yes</label>
+		<br/>
+		<input type="submit"/>
+	</form>
+</body>
+</html>

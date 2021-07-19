@@ -13,4 +13,4 @@ Add get and set methods for the first and second elements of the pair. Test the 
 displayed, and the JTextField used for input should be changed to be uneditable. A JButton should be provided to allow the user to play the game again. When the JButton is 
 clicked, a new random number should be generated and the input JTextField changed to be editable.
 
-4. Create the following GUI (see image4). You do not have to provide any functionality.
+4. Create the following GUI (see GUI4). You do not have to provide any functionality.

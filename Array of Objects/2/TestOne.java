@@ -1,4 +1,4 @@
-package tues08;
+package 2;
 
 public class TestOne {
 

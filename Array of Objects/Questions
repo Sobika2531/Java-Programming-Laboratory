@@ -1,0 +1,3 @@
+1. Define a function that takes array of Account objects and calculates the total interest to be paid double totalInterest(Account a[])
+
+2. Explore the package access with respect to class, method and variables - public,private with a sample program

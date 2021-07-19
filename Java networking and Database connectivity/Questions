@@ -1,0 +1,8 @@
+1. Write an application using TCP connection, define the class Client that has library as type String, lender name of type string and arraylist of books borrowed of type integer.
+Define the function void sendtoserver (String library, String lender, Arraylist borrowedbooks) which sends to server. (5 marks)
+Define the class Server that has insertintoDB to store the library, lender name, array list of books borrowed so far.
+
+Note: Any Database can be used to store the information. 
+      Client should be more than one
+      
+Link for reference: https://www.youtube.com/watch?v=CeH6vrfOeAw

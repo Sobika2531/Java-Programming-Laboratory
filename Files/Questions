@@ -1,0 +1,10 @@
+1. Write a java application to copy the contents of one text file another text file.
+
+2. Write an abstract class called Person whose protected data fields are: name(String), age(int), height(double) and weight(double). 
+The methods are: constructor with four arguments, get methods and toString() to display the details of Person.
+Derive class called FootballPlayer and Cricketer. FootballPlayer with data fields: teamname(String), uniformnumber(int) and numberofgoals(int). 
+Provide the following methods constructor, int getnogoals() that returns the number of goals obtained by the player and write into details into text file using user defined 
+method called writeintofile().
+Cricketer will have data fields: countryname(String), role(String) which indicates the role played by the person as batsman, bowler, all-rounder, and wicket-keeper, 
+nowickets(int) and noruns(int). The methods are: constructor, get methods and write into details into text file using user defined method called writeintofile(). 
+Write a test application to invoke the functionalities of the each class

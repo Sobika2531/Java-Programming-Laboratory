@@ -1,0 +1,7 @@
+Write the java application for storing and retrieving the student information from/ to the student database. The design must include student roll no, name, age, Gender, address, 
+mark1, mark2, mark3, mark4, mark5, etc
+The application must have the following features
+· Insert the details into database if the information is not exists already
+· Update the student details by given roll no into database
+· Display the student information by given roll no
+· Calculate the CGPA and store into database

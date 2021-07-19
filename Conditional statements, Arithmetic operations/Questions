@@ -1,0 +1,12 @@
+1. Write an application to find the number of days in a month.
+
+2. Write an application that takes the user to provide a single character from the alphabet. Print Vowel or Consonant, depending on the user input. 
+If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, print an error message
+
+3. Write an application that reads an integer between 0 and 1000 and print the sum of all the digits in the given input.
+
+4. Write an application that takes the user distance (in meters) and the time was taken (as three numbers: hours, minutes, seconds)
+to complete the distance and display the speed, in meters per second, kilometers per hour and miles per hour (hint: 1 mile = 1609 meters)
+
+5. Write an application that accepts three numbers from the user and prints "increasing" if the numbers are in increasing order,
+"decreasing" if the numbers are in decreasing order, and "Neither increasing nor decreasing order" otherwise.

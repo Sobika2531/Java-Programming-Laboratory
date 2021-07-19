@@ -1,4 +1,4 @@
-package tues08;
+package 1;
 
 public class Account {
 	final static double interest=0.06;

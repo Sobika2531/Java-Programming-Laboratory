@@ -1,0 +1,35 @@
+1. Write a method to find the twin primes taking the integer range as the parameter. The integer range got from the user. Twin primes are the integers that differ by 2.
+
+2. Write a method void shift(int []) that shifts the array elements from left to right.
+
+3. Write a method int [] removeduplicates(int []) that removes the duplicates in the array and returns new array.
+
+4. Explore the functions of Arrays class with simple program : arraycopy, sort, equals,binarysearch
+
+5. Write a method Partition(int []) that sorts the array such that the elements lesser or equal to the pivot are on the left and elements greater 
+than the pivot are on the right. The pivot is always the first element in the array.
+  For eg: [4, 5, 1, 2, 34, 23, 6]
+  After partition : [1, 2, 4, 5, 34, 23, 6]
+
+6. Suppose the weekly hours for all employees are stored in a two-dimensional array. Each row records an employee’s seven-day work hours with seven columns.
+For example, the following array stores the work hours for eight employees. Write a program that displays employees and their total hours in decreasing order of the total hours.
+                                       | Su | M | T | W | Th | F | Sa
+                            -----------------------------------------
+                            Employee 0 |  2 | 4 | 3 | 4 |  5 | 8 |  8
+                            Employee 1 |  7 | 3 | 4 | 3 |  3 | 4 |  4
+                            Employee 2 |  3 | 3 | 4 | 3 |  3 | 2 |  2
+                            Employee 3 |  9 | 3 | 4 | 7 |  3 | 4 |  1
+                            Employee 4 |  3 | 5 | 4 | 3 |  6 | 3 |  8
+                            Employee 5 |  3 | 4 | 4 | 6 |  3 | 4 |  4
+                            Employee 6 |  3 | 7 | 4 | 8 |  3 | 8 |  4
+                            Employee 7 |  6 | 3 | 5 | 9 |  2 | 7 |  9
+
+7. Create an ArrayList of String that will contain the student’s name enrolled for my Java programming class. Use the built-in methods to do the following:
+  i. add - to add a student name to list
+  ii. contains – to check whether the student name exists in my list
+  iii. remove – to delete a student name from my list
+  iv. indexof – to return index of the name searched for
+  v. get – print the list of student’s name in reverse order using get
+  vi. size – to print the number of students enrolled in my class
+
+  Note: enhanced for can be used

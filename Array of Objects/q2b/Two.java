@@ -1,4 +1,4 @@
-package tues08;
+package q2a;
 
 class Two {
 	public int x=30;
